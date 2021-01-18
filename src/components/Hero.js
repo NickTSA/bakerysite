@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <div className={heroStyles.container}>
       <div className={heroStyles.heroText}>
-        <div>ABOUT</div>
-        <div>US</div>
+        <div className={heroStyles.title}>ABOUT</div>
+        <div className={heroStyles.title}>US</div>
         <div>social icons</div>
         <div>
           We bring the season’s best mix of organic produce and hand-crafted
